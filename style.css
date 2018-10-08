@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	text-align: center;
+	margin: 0 auto;
+    max-width: 600px;
+	 background: rgba(0,0,0,0.7);
+}
+
+div{
+	background-size: cover !important;
+	height: 300px;
+	position: relative;
+	margin: 40px 0 0 0;
+	border-radius: 10px;
+}
+p{
+	 background: rgba(0,0,0,0.8);
+	color: white;
+	text-align: justify;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 10px;
+	line-height: 25px;
+	font-size: 20px;
+
+
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	color:white;
+
+}
+h2 ,h3{
+	font-family: 'Dancing Script', cursive;
+	color:white;
+}
+
+.first{
+	background: url("assets/firstcourse.jpg");
+
+}
+.second{
+	background: url("assets/secondcourse.jpg");
+}
+.dessert{
+	background: url("assets/dessertcourse.jpg");
+
+
+
+}
+
+.title{
+	font-size:30px;
+	font-weight: 300;
+	color:white;
+	background: rgba(0,0,0,0.4);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.price{
+	float: right
+}
